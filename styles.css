@@ -430,8 +430,8 @@ button.submit-button {
     box-sizing: border-box;
     width: 100%;
     margin: 15px auto 0;
-	margin-bottom: -30px;
-    margin-top: -40px;
+	margin-bottom: 0px;
+    margin-top: -20px;
 }
 .submit-button-yellow {
     background: #ffe530;
@@ -602,7 +602,7 @@ a:-webkit-any-link {
     color: #060B0D;
     text-align: center;
     font-weight: 400;
-	margin-top: -15px;
+	margin-top: -10px;
 
 }
 p {
@@ -615,6 +615,7 @@ p {
     text-align: center;
     font-size: 18px;
     font-weight: 500;
+	margin-top: 40px;
 }
 .site-desc span {
     font-size: 30px;
